@@ -1,3 +1,29 @@
-body {
+html, body {
+    margin: 0px;
+    height:100%;
+    width: 100%;
     font-family: sans-serif;
 }
+
+#start{
+    display: flex;
+    flex-direction: column;
+    height: 100%;}
+
+#A{
+    flex: 1;
+    background-color: blue;
+}
+
+#B{
+    flex: 1;
+    background-color: blueviolet;
+}
+
+#AB{
+    flex: 1 ;
+    background-color:aquamarine ;
+}
+
+
+
